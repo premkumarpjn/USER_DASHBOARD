@@ -1,0 +1,68 @@
+.cardContainer {
+  border: 2px solid;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+  .cardHdr {
+    border-bottom: 2px solid;
+    padding: 16px;
+    .cardName {
+      font-weight: bold;
+      display: inline-block;
+      vertical-align: middle;
+      width: 92%;
+    }
+    .cardProfile {
+      width: 20px;
+      height: 20px;
+      background: #1a7318;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .cardCntCntr {
+    padding: 20px;
+    border-bottom: 2px solid;
+    .cardCntnt {
+      margin: 10px;
+      margin-left: 0;
+      .cardValue {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .cardFtrCntr {
+    padding: 20px;
+    text-align: center;
+
+    .deleteBtn,
+    .editBtn,
+    .viewBtn {
+      color: #ffffff;
+      padding: 10px;
+      width: 23%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .deleteBtn {
+      background-color: #f64f29;
+    }
+    .editBtn {
+      background-color: #1677ff;
+    }
+    .viewBtn {
+      background-color: #1677ff;
+    }
+  }
+}

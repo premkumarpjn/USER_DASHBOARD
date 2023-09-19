@@ -1,0 +1,43 @@
+.dashboardContainer {
+  padding: 20px;
+  .dashboardHeading {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .addButton {
+    padding: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #1677ff;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .pagination {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    .activePage {
+      background-color: #1677ff;
+      padding: 20px;
+      color: #ffffff;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      margin: 10px;
+    }
+    .inActivePage {
+      background-color: #bdd8ff;
+      padding: 20px;
+      color: #000000;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      margin: 10px;
+    }
+  }
+}
